@@ -45,17 +45,23 @@ The application is built with **Streamlit** for an interactive user interface an
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
-Research-Paper-QA/
+Research-Paper-RAG/
 │
-├── app.py                 # Streamlit application
-├── rag.py                 # RAG pipeline
-├── requirements.txt
-├── data/                  # Research papers
-├── README.md
-└── assets/                # Images (optional)
+├── app.py                              # Streamlit web application
+├── rag.py                              # RAG pipeline and question-answering logic
+├── research_paper_rag_using_slm_final.py   # Original Google Colab implementation
+├── research_db.zip                     # Compressed vector database (FAISS/Chroma)
+├── README.md                           # Project documentation
+│
+├── data/                               # (Optional) Research paper PDFs
+│   ├── paper1.pdf
+│   ├── paper2.pdf
+│   └── ...
+│
+└── requirements.txt                    # Python dependencies
 ```
 
 ---
